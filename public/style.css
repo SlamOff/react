@@ -1,0 +1,19 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1.25;
+}
+.floated:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+.floated {
+    float: left;
+    padding: 20px 30px;
+    width: 50%;
+}
