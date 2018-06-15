@@ -22,7 +22,6 @@ class Article extends PureComponent {
                     </button>
                     <br />
                     clicked: {this.state.count}
-
                 </h2>
                 {body}
                 <h3>{article.author}</h3>

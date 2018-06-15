@@ -7,7 +7,6 @@ export default class ArticleList extends PureComponent {
         openArticleId: 1
     }
     render(){
-
         const elems = this.props.articles.map((article, index) =>
             <li className="article__item" key = {article.id}>
                 <Article article = {article}
